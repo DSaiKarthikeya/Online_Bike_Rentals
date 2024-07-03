@@ -1,0 +1,41 @@
+.work {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensure items do not wrap to the next line */
+}
+
+.work-box {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust flex basis to allow 3 per row */
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.work-box i {
+    font-size: 2rem;
+    color: #f76c6c;
+    margin-bottom: 10px;
+}
+
+.work-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.work-description {
+    font-size: 0.9rem;
+    color: #666;
+}

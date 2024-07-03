@@ -1,0 +1,60 @@
+.home {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home-title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.home-box {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-img {
+    width: 80%; /* Adjust to make the image larger */
+    max-width: 800px; /* Ensure it doesn't get too large on very wide screens */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space between image and buttons */
+}
+
+.home-btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dealer-btn, .ride-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px; /* Add space between the buttons */
+    color: #fff;
+    background-color: #f76c6c;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dealer-btn:hover, .ride-btn:hover {
+    background-color: #d45353;
+}

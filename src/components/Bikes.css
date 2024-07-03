@@ -1,0 +1,76 @@
+.bikes {
+    padding: 50px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bikes-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bike-box {
+    flex: 1 1 calc(30% - 20px); /* Adjust flex basis to allow 3 per row with some spacing */
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bike-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title-data h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.title-data p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.bike-price {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.book-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #f76c6c;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #d45353;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
